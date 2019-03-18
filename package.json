@@ -5,7 +5,7 @@
     {
       "name": "my-test",
       "tags": [ "tag", "name" ]
-    }
+    },
     {
       "name": "primitives",
       "tags": [ "basics", "declaration" ]
