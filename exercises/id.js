@@ -7,8 +7,10 @@
  */
 
 // Your code :
-function id = {
-    pouet: }
+function id (anArgument) {
+    return anArgument;
+};
+
 //* Begin of tests
 const assert = require('assert')
 
