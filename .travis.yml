@@ -1,3 +1,4 @@
+script: node ./tester basics
 language: node_js
 node_js:
   - "node"
