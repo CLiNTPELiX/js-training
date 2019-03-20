@@ -11,7 +11,9 @@
  */
 
 // Your code :
-
+function sign(arg1) {
+    return  arg1 > 0 ? 1 : arg1 < 0 ? -1 : 0;
+}
 //* Begin of tests
 const assert = require('assert')
 
