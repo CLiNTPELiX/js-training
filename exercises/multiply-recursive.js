@@ -9,7 +9,28 @@
  * @notions Primitive and Operators, Functions, Recursion
  */
 
-// Your code :
+// Your code :me 
+
+
+// Spéciale dédicace Guillaume Dieudonné et le dojo du jour(avec table ASCII)
+const multSign = String.fromCharCode(42);
+const multiply = (arg1, arg2) => {
+    if (arg1 === 0 || arg2 === 0)
+        return 0;
+    if (arg2 > 0 || arg2 < 0)
+        return(eval(arg1 + multSign + arg2))
+}
+
+// Solution récursivité
+//
+// const multiply = (arg1, arg2) => {
+//     if (arg1 === 0 || arg2 === 0)
+//         return 0;
+//     if (arg2 > 0)
+//         return (arg1 + multiply(arg1, arg2 - 1));
+//     if (arg2 < 0)
+//         return (-arg1 - multiply(arg1, -arg2 - 1));
+// }
 
 //* Begin of tests
 const assert = require('assert')
